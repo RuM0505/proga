@@ -1,0 +1,99 @@
+body{
+    color: #000000;
+    background-color: #fffff1;
+}
+
+/* A legfelső menüben lébő szövegek színe*/
+
+#menu a,
+#menu a:link,
+#menu a:visited{
+    color: yellow;
+    text-decoration: none;
+}
+#menu a:hover{
+    color: #93C263;
+    text-decoration: underline;
+}
+
+/*A fejléc stíluscuccai*/
+
+#fejlec{
+    font-family: Verdana, sans-serif;
+    background: url(dirt.png);
+    height: 120px;
+    width: 900px;
+    padding: 0;
+    margin: 0 auto;
+}
+#fejlec h1{
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+    color: #93C263;
+    text-align: center;
+    height: 45px;
+}
+#menu{
+    height: 35px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#menu li{
+    display: inline;
+    margin: 0 40px;
+    font-size: 18px;
+}
+
+/* A tartalom stílisai */
+
+#tartalom{
+    width: 900px;
+    min-height: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+#tartalom h2{
+    background: url(grass.png);
+    height: 32px;
+    width: 900px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+#tartalom h3{
+    background: url(dirt.png);
+    font-size: 26px;
+    height: 32px;
+    width: 900px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+#tartalom ul a,
+#tartalom ul a:link,
+#tartalom ul a:visited{
+    color: blue;
+    text-decoration: none;
+}
+#tartalom ul a:hover{
+    color: #93C263;
+    text-decoration: underline;
+}
+table{
+    border-collapse: collapse;
+    margin: 5px auto;
+    background-color: white;
+}
+th, td{
+    border: 1px solid black;
+    padding: 4px 20px;
+}
