@@ -3,8 +3,6 @@ body{
     background-color: #fffff1;
 }
 
-/* A legfelső menüben lébő szövegek színe*/
-
 #menu a,
 #menu a:link,
 #menu a:visited{
@@ -15,8 +13,6 @@ body{
     color: #93C263;
     text-decoration: underline;
 }
-
-/*A fejléc stíluscuccai*/
 
 #fejlec{
     font-family: Verdana, sans-serif;
@@ -47,8 +43,6 @@ body{
     margin: 0 40px;
     font-size: 18px;
 }
-
-/* A tartalom stílisai */
 
 #tartalom{
     width: 900px;
